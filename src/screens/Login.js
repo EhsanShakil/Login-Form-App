@@ -44,6 +44,15 @@ const Login = ({ navigation }) => {
         ref={submitRef}
         onPress={() => alert("Login Success")}
       />
+      <Text>
+        Don't have a account?{" "}
+        <Text
+          style={style.signup}
+          onPress={() => navigation.navigate("SignUp")}
+        >
+          Sign Up
+        </Text>
+      </Text>
     </View>
   );
 };

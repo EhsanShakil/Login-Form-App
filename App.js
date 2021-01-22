@@ -1,7 +1,6 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import Signin from "./src/screens/Login";
+import Route from "./src/navigations";
 
 export default function App() {
-  return <Signin />;
+  return <Route />;
 }
